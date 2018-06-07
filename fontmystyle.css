@@ -1,0 +1,693 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #191919; /*black*/
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #4E4D4D; /*grey*/
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #383838; /*grey*/
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		width: 100%;
+		margin: 0px auto;
+	}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		overflow:  hidden;
+		margin: 0em 0 3em 0;
+		padding-top: 1em;
+		text-align: center;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		font-size: 2em;
+		color: rgba(255,255,255,.3);
+	}
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+	.major
+	{
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+	}
+	.majorMyContacts
+	{
+		overflow: hidden;
+		margin-bottom: 4em;
+		text-align: center;
+		color: rgb(7,76,125);
+	}	
+	.majorMyContacts h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color:rgb(7,76,125);
+	}
+	.majorMyContacts .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+	
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color: #3f3f3f; /*grey*/
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title
+	{
+		text-align: center;
+	}
+	
+	.title h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3f3f3f; /*grey*/
+	}
+
+	.title .byline
+	{
+		display: block;
+		padding-top: 1em;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin: 1em 0em;
+		padding: 1em 3em 1em 3em;
+		background: #2A70E8; /*blue*/
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 0.80em; //0.90em;
+		color: #FFF; /* rgb(225,181,112); #FFF*/
+	}
+	
+	.button:before
+	{
+	}
+		
+/*********************************************************************************/
+/* Header            background: #2A70E8; font-size: 1em;                                                            */
+/*********************************************************************************/
+
+	#header
+	{
+font-size: 1em;  
+	}
+
+/*********************************************************************************/
+/* Logo                  background: #FFF;         seaUp                                                 */
+/*********************************************************************************/
+	#seaUpDown100percHeight
+	{
+		padding: 1em 0em;
+		background-image: url('./seaBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 4248px 100%;
+	}	
+	#seaUpDown100percHeight200percWidth
+	{
+		padding: 1em 0em;
+		background-image: url('./seaBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 200% 100%;
+		-ms-filter: "FlipH";
+	}		
+	#seaUpDown200percHeightBottom
+	{
+		padding: 1em 0em;
+		background-image: url('./seaBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 4248px 200%;			
+	}		
+	#seaUpDown200percHeightWidthBottom
+	{
+		padding: 1em 0em;
+		background-image: url('./seaBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 200% 200%;
+		-ms-filter: "FlipV";
+	}		
+	#seaUpDown200percHeightTop
+	{
+		padding: 1em 0em;
+		background-image: url('./seaBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left top; 		background-size: 4248px 200%;			
+	}	
+
+	
+	
+	
+	
+	#sea120height150widthBottom /*1st Bottom sea little cut*/
+	{
+		padding: 1em 0em;
+		background-image: url('./sea.jpg') ;  /**/
+		background-position: left bottom; 		background-size: 150% 220%;
+		color: rgb(225,181,112);
+	}	
+	#sea120height150widthBottom h2,h3
+	{
+		text-align: center;
+	}		
+	#sand120height150widthBottom /*2nd TopBottom sand not cut*/
+	{
+		padding: 1em 0em;
+		background-image: url('./sand.jpg') ;  /**/
+		background-position: left bottom; 		background-size: 100% 100%;
+		color: rgb(7,76,125);
+	}	
+	#sand120height150widthBottom h2
+	{
+		text-align: center;
+		color: rgb(0,99,116); 
+	}	
+	#sand120height150widthBottom h3
+	{
+		text-align: center;
+		color: rgb(7,76,125);
+	}		
+	#sand120height150widthBottom .byline
+	{
+		text-align: center;
+		color: rgb(7,76,125);
+	}	
+	#sand120height150widthBottom a
+	{
+		font-weight: 600;
+	}		
+	#sea100percHeightWidth /*3rd TopBottom sea little cut*/
+	{
+		padding: 1em 0em;
+		background-image: url('./sea.jpg') ; /**/
+		background-position: left bottom; 		background-size: 100% 100%;
+		color: rgb(225,181,112);
+	}	
+	#sand100height100widthBottom /*4th Top sand no cut*/
+	{
+		width: 100%; 
+		padding: 1em 0em;
+		background-image: url('./sand.jpg') ;  /**/
+		background-position: left top; 		background-size: 150% 220%;
+		color: rgb(7,76,125);
+	}	
+	#sand100height100widthBottom h2
+	{
+		text-align: center;
+		color: rgb(0,99,116); 
+	}	
+	
+	#bottomFormDIV /*4th PARENT not used*/
+	{
+		width: 100%; 
+	}
+	#sea120height150widthTop /*4thdBLIZKIE Bottom sea little cut*/
+	{
+		padding: 1em 0em;
+		background-image: url('./sea.jpg') ;  /* (10x7)*/
+		background-position: left top;		background-size: 150% 220%;
+		color: rgb(225,181,112);
+	}
+
+
+
+
+
+
+	
+	
+	#sandUpDown100percHeight
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 4248px 100%;
+	}	
+	#sandUpDown100percHeight200percWidth
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 200% 100%;
+	}	
+	#sandUpDown200percHeightBottom
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 4248px 200%;			
+	}		
+	#sandUpDown200percHeightWidthBottom
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left bottom; 		background-size: 200% 200%;
+	}		
+	#sandUpDown200percHeightTop
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left top; 		background-size: 4248px 200%;			
+	}		
+	#sandUpDown200percHeightWidthTop
+	{
+		padding: 1em 0em;
+		background-image: url('./sandBorderUpDownCut.jpg') ; /* no-repeat;*/
+		background-position: left top; 		background-size: 200% 200%;
+	}	
+
+
+
+
+
+	
+
+	#logo
+	{
+		padding: 1em 0em;
+		/*background: rgb(225,181,112);*/
+		/*background-image: url('./sandBorderUpDown.jpg');*/
+		/*background-position: left bottom; */
+		/*text-transform: uppercase;*/
+		/*background-size: 4248px 100%;*/
+		color: rgb(225,181,112);
+	}
+
+	#logo h1
+	{
+		text-align: center;
+		font-weight: 900;
+		font-size: 1.5em;
+		color: rgb(225,181,112);
+	}
+	#logo h2{font-size: 1em; color: rgb(225,181,112);}
+	#logo h3{font-size: 0.9em; color: rgb(225,181,112);}
+		
+	#logo h1 a
+	{
+		color: rgb(225,181,112);
+	}
+
+	#logo span
+	{
+		padding: 0em 0em 0em 0.5em;
+	}
+	
+	#logo h1:before
+	{
+		
+	}
+	
+/*	
+	#logo a 
+	{
+		color: #2A70E8;
+	}
+*/
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu ul
+	{
+		margin: 0;
+		padding: 5px 5px 5px 5px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu a
+	{
+		display: block;
+		padding: 0.5em 1em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.1em;
+		font-weight: 700;
+		color: #FFF; /*while?*/
+	}
+	
+	#menu .current_page_item a
+	{
+		border-radius: 30px;
+		border: 1px solid;
+		border-color: rgb(225,181,112); /*white rgba(255,255,255,.2)*/
+	}
+	
+	#menu a:hover
+	{
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page           #EEEEEE;                                                               */
+/*********************************************************************************/
+
+	#page-wrapper
+	{
+		color: rgb(7,76,125); /*background: rgb(225,181,112);*/
+	}
+
+	#page
+	{
+		overflow: hidden;
+		padding: 0em 0em;
+		color: rgb(7,76,125);
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		width: 97%; /*588px;*/
+		text-align: left;
+		padding: 1em 1em 1em 1em;
+		text-align: justify;
+    text-indent: 1em;
+	}
+	
+	#content .title
+	{
+		padding: 0em 2em 0em 2em;
+		text-align: center;
+	}
+	
+	#content h2
+	{
+		font-size: 2em;
+		color: rgb(0,99,116); /*color: rgb(7,76,125);*/
+	}
+	
+	#content .byline
+	{
+		padding: 1em 2em 2em 2em; /*padding-top: 0;*/
+		font-size: 1.5em;
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: left;
+		width: 93%;
+		padding: 1em 1em;
+		height:auto;
+		overflow:hidden;		
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 0em 0em;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.65em;
+		color: rgb(7,76,125); /*color: #6F6F6F; /*grey*/
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #8C8C8C; /*grey*/
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: rgb(225,181,112); /*white #FFF*/
+	}
+	
+	#featured h2
+	{
+		text-align: center;
+	}
+
+	#featured .icon
+	{
+		position: relative;
+		display: block;
+		background: #2A70E8; /*blue*/
+		margin: 0px auto 20px auto;
+		line-height: 2.5em;
+		font-size: 4em;
+		text-align: center;
+		color: rgb(225,181,112); /*white? #FFF*/
+	}
+
+	.column0,	.column1,	.column2,	.column3,	.column4,	.column5,	.column6,	.column7,	.column8,	.column9,
+	.column10,	.column11,	.column12,	.column13,	.column14,	.column15,	.column16,	.column17,	.column18,	.column19,
+	.column20,	.column21,	.column22,	.column23,	.column24,	.column25,	.column26,	.column27,	.column28,	.column29,
+	.column30,	.column31,	.column32,	.column33,	.column34,	.column35,	.column36,	.column37,	.column38,	.column39,
+	.column100,	.column101,	.column102,	.column103,	.column104,	.column105,	.column106,	.column107,	.column108,	.column109,
+	.column110,	.column111,	.column112,	.column113,	.column114,	.column115,	.column116,	.column117,	.column118,	.column119,
+	.column120,	.column121,	.column122,	.column123,	.column124,	.column125,	.column126,	.column127,	.column128,	.column129,
+	.column130,	.column131,	.column132,	.column133,	.column134,	.column135,	.column136,	.column137,	.column138,	.column139
+	{
+		width: 354px; 
+		height: 433px; 
+		position: static;
+		float: left; display:block; margin-left: 10px; margin-right: 10px;
+	}
+	
+
+
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		padding: 8em 0em 2em 0em;
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	#portfolio .major h2,
+	#portfolio .major .byline
+	{
+		color: rgb(225,181,112); /*white rgba(255,255,255,0.9)*/
+	}
+	
+	#portfolio img
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#portfolio .box
+	{
+		padding: 30px;
+		background: #FFF;
+		border-radius: 0px 0px 8px 8px;
+		border-right: 1px solid #DADADA; /*lightgrey*/
+		border-left: 1px solid #DADADA;
+	}
+
+	#contact .major h2,
+	#contact .major .byline
+	{
+		color: rgba(255,255,255,0.9);
+	}
