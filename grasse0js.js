@@ -1,12 +1,16 @@
-var im0num = -1; var pernemoi=0;//dobav vNacaloMassiva i ++1
+var im0num = -1; var pernemoi=3;//dobav vNacaloMassiva i ++1
 var ims0 = [
-	'./sightseeing-Grasse_i0.jpg','./sightseeing-Grasse_i1.jpg','./sightseeing-Grasse_i2.jpg','./sightseeing-Grasse_i3.jpg','./sightseeing-Grasse_i4.jpg','./sightseeing-Grasse_i5.jpg','./sightseeing-Grasse_i6.jpg','./sightseeing-Grasse_i7.jpg'
+	'./sightseeing-Grasse_i7.jpg','./sightseeing-Grasse_i8.jpg','./sightseeing-Grasse_i9.jpg',
+	'./sightseeing-Grasse_i0.jpg','./sightseeing-Grasse_i1.jpg','./sightseeing-Grasse_i2.jpg','./sightseeing-Grasse_i3.jpg','./sightseeing-Grasse_i4.jpg','./sightseeing-Grasse_i5.jpg','./sightseeing-Grasse_i6.jpg'
 ];
 var im0 = document.getElementById('im0id'); 
 var im0title="вид Граса недалеко от старого города";
 function slekart0(){
 	im0num = (im0num + 1) % (ims0.length-1);
 	im0.src = ims0[im0num]; 
+	if(im0num==0) {im0title="Вид на мэрию и собор Граса";};
+	if(im0num==1) {im0title="Памятник генералу Грасу";};
+	if(im0num==2) {im0title="Фонтан французской революции";};	
 	if(im0num==pernemoi+0) {im0title="Старинное парфюмерное оборудование";};
 	if(im0num==pernemoi+1) {im0title="Приготовление духов";};
 	if(im0num==pernemoi+2) {im0title="Дворец конгрессов";};
